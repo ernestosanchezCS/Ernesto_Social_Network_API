@@ -26,8 +26,10 @@ SO THAT my website can handle large amounts of unstructured data
 
 ## Screenshots
 
-![Screen Shot](./public/img/pic1.png)
-![Screen Shot](./public/img/pic2.png)
+![Screen Shot](./assets/images/getUsers.png)
+![Screen Shot](./assets/images/getThoughts.png)
+![Screen Shot](./assets/images/getSingleUser.png)
+![Screen Shot](./assets/images/getSingleThought.png)
 
 ## Installation
 
