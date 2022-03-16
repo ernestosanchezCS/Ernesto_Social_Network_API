@@ -1,6 +1,5 @@
 const { User, Thought } = require('../models');
 
-// TODO: Create an aggregate function to get the number of users overall
 const headCount = async () =>
     User.aggregate()
         .count('userCount')
@@ -101,6 +100,7 @@ module.exports = {
             .catch((err) => res.status(500).json(err));
     },
 
+    //add a friend to user
     addFriend(req, res) {
         User.findOneAndUpdate(
             { _id: req.params.userId },
@@ -115,6 +115,7 @@ module.exports = {
             .catch((err) => res.status(500).json(err));
     },
 
+    //delete a friend from a user
     deleteFriend(req, res) {
         User.findOneAndUpdate(
             { _id: req.params.userId },
