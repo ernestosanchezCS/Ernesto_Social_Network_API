@@ -3,7 +3,7 @@ const { User, Thought } = require('../models');
 const headCount = async () =>
     User.aggregate()
         .count('userCount')
-        .then((numberOfStudents) => numberOfStudents);
+        .then((numberOfUsers) => numberOfUsers);
 
 module.exports = {
     // Get all users
