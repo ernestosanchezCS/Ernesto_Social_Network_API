@@ -128,7 +128,7 @@ module.exports = {
             .catch((err) => res.status(500).json(err));
     },
 
-    //delete a friend from a user
+    //delete a friend from a user with userId and friendId u want to delete
     deleteFriend(req, res) {
         User.findOneAndUpdate(
             { _id: req.params.userId },
