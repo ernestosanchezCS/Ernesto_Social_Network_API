@@ -40,10 +40,6 @@ npm i
 ```
 
 ```
-back in server terminal enter: node utils/seed.js
-```
-
-```
 Finally run
 ```
 
